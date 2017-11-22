@@ -4,3 +4,16 @@ html {
   font-family: "Overpass", sans-serif;
   color: #fff;
 }
+
+.btn-ghost {
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  padding: .5em;
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
