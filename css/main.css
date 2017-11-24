@@ -1,13 +1,17 @@
 html {
-  background-image: linear-gradient(to top, #ff5e3a, #ff9500);
   height: 100%;
   font-family: Overpass, sans-serif;
   color: #fff;
 }
 
-li {
+section {
+  background-image: linear-gradient(to top, #ff5e3a, #ff9500);
+}
+
+li:first-child,
+li:nth-child(2) {
   border-right: none;
-  border-bottom: 1px solid #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, .4);
 }
 
 .btn-ghost {
@@ -25,8 +29,9 @@ li {
 
 @media only screen and (min-width: 60em) {
 
-  li {
-    border-right: 1px solid #fff;
+  li:first-child,
+  li:nth-child(2) {
+    border-right: 2px solid rgba(255, 255, 255, .4);
     border-bottom: none;
   }
 
